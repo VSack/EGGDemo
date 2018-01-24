@@ -1,0 +1,85 @@
+Hero rainbowUnicorn {
+	
+	inventorySize 0;
+	jumpPower 3;
+	maxLife 10;
+	speed 1;
+	strength 3;
+	
+	run Animation {
+		duration 150;
+		pictures "hero01.png","hero02.png","hero03.png","hero04.png","hero05.png","hero06.png";
+	};
+	
+	jump Animation {	
+		duration 150;
+		pictures "hero_jump.png";
+	};
+	
+	idle Animation {	
+		duration 150;
+		pictures "hero_idle.png";
+	};
+	
+	melee Animation {		//TODO
+		duration 150;
+		pictures "hero01.png";
+	};
+	
+}
+
+Enemy slimyAlien {
+	iq LOW;
+	jumpPower 0;
+	maxLife 1;
+	speed 1;
+	strength 1;
+	
+	run Animation {
+		duration 300;
+		pictures "slimy_alien_01.png","slimy_alien_02.png","slimy_alien_03.png";
+	};
+	
+	jump Animation {		//TODO
+		duration 300;
+		pictures "slimy_alien_01.png","slimy_alien_02.png","slimy_alien_03.png";
+	};
+	
+	idle Animation {		//TODO
+		duration 300;
+		pictures "slimy_alien_01.png","slimy_alien_02.png","slimy_alien_03.png";
+	};
+	
+	melee Animation {		//TODO
+		duration 300;
+		pictures "slimy_alien_01.png","slimy_alien_02.png","slimy_alien_03.png";
+	};
+}
+
+Enemy tentacleAlien {
+	iq MEDIUM;
+	jumpPower 0;
+	maxLife 3;
+	speed 2;
+	strength 2;
+	
+	run Animation {
+		duration 100;
+		pictures "tentacle_alien_idle.png", "tentacle_alien_run_01.png","tentacle_alien_run_02.png","tentacle_alien_run_03.png","tentacle_alien_run_04.png";
+	};
+	
+	jump Animation {		//TODO
+		duration 100;
+		pictures "tentacle_alien_idle.png", "tentacle_alien_run_01.png","tentacle_alien_run_02.png","tentacle_alien_run_03.png","tentacle_alien_run_04.png";
+	};
+	
+	idle Animation {		//TODO
+		duration 100;
+		pictures "tentacle_alien_idle.png", "tentacle_alien_run_01.png","tentacle_alien_run_02.png","tentacle_alien_run_03.png","tentacle_alien_run_04.png";
+	};
+	
+	melee Animation {		//TODO
+		duration 100;
+		pictures "tentacle_alien_idle.png", "tentacle_alien_run_01.png","tentacle_alien_run_02.png","tentacle_alien_run_03.png","tentacle_alien_run_04.png";
+	};
+}

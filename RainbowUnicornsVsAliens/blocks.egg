@@ -1,0 +1,85 @@
+Block earth {
+	destroyable;
+	Animation { 
+		pictures "earth.png";
+		duration 1;
+	};
+}
+
+Block grass {
+	destroyable;
+	Animation { 
+		pictures "grass.png";
+		duration 1;
+	};
+}
+
+Block stone {
+	Animation { 
+		pictures "stone.png";
+		duration 1;
+	};
+}
+
+Block metal {
+	Animation { 
+		pictures "metal.png";
+		duration 1;
+	};
+}
+
+Block cable {
+	noCollision;
+	Animation { 
+		pictures "cable.png";
+		duration 1;
+	};
+}
+
+Block cableLeft {
+	noCollision;
+	Animation { 
+		pictures "cable_lh.png";
+		duration 1;
+	};
+}
+
+Block cableRight {
+	noCollision;
+	Animation { 
+		pictures "cable_rh.png";
+		duration 1;
+	};
+}
+
+Block grassDeco {
+	noCollision;
+	Animation { 
+		pictures "grass_deco.png";
+		duration 1;
+	};
+}
+
+Block earthDeco1 {
+	noCollision;
+	Animation { 
+		pictures "earth_deco01.png";
+		duration 1;
+	};
+}
+
+Block earthDeco2 {
+	noCollision;
+	Animation { 
+		pictures "earth_deco02.png";
+		duration 1;
+	};
+}
+
+Block earthDeco3 {
+	noCollision;
+	Animation { 
+		pictures "earth_deco03.png";
+		duration 1;
+	};
+}
