@@ -1,0 +1,17 @@
+Item apple {
+	scorePoints 0;
+	consumable;
+	effect JUMPPOWER +2;
+	Animation {
+		pictures "apple.png";
+		duration 1;
+	};
+}
+
+Item coin {
+	scorePoints 1;
+	Animation {
+		pictures "coin01.png", "coin02.png", "coin03.png", "coin04.png";
+		duration 250;
+	};
+}

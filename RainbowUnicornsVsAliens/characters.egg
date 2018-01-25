@@ -1,6 +1,9 @@
 Hero rainbowUnicorn {
 	
-	inventorySize 0;
+	inventoryItemTypes apple, coin;
+	inventoryItemCounts 1, 50;
+	
+	inventorySize 4;
 	jumpPower 3;
 	maxLife 10;
 	speed 1;
@@ -37,22 +40,22 @@ Enemy slimyAlien {
 	
 	run Animation {
 		duration 300;
-		pictures "slimy_alien_01.png","slimy_alien_02.png","slimy_alien_03.png";
+		pictures "slimy_alien01.png","slimy_alien02.png","slimy_alien03.png";
 	};
 	
 	jump Animation {		//TODO
 		duration 300;
-		pictures "slimy_alien_01.png","slimy_alien_02.png","slimy_alien_03.png";
+		pictures "slimy_alien01.png","slimy_alien02.png","slimy_alien03.png";
 	};
 	
 	idle Animation {		//TODO
 		duration 300;
-		pictures "slimy_alien_01.png","slimy_alien_02.png","slimy_alien_03.png";
+		pictures "slimy_alien01.png","slimy_alien02.png","slimy_alien03.png";
 	};
 	
 	melee Animation {		//TODO
 		duration 300;
-		pictures "slimy_alien_01.png","slimy_alien_02.png","slimy_alien_03.png";
+		pictures "slimy_alien01.png","slimy_alien02.png","slimy_alien03.png";
 	};
 }
 
@@ -75,7 +78,7 @@ Enemy tentacleAlien {
 	
 	idle Animation {		//TODO
 		duration 100;
-		pictures "tentacle_alien_idle.png", "tentacle_alien_run_01.png","tentacle_alien_run_02.png","tentacle_alien_run_03.png","tentacle_alien_run_04.png";
+		pictures "tentacle_alien_idle.png";
 	};
 	
 	melee Animation {		//TODO

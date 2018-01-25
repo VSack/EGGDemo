@@ -1,24 +1,25 @@
-TextPageDescription gametitle {
+TextPage gametitle {
 	startPage;
 	backgroundImage "title.png";
 	next main;
 }
 
-MenuPageDescription main {
+MenuPage main {
 	button "Spiel Starten" to prologue1; 
 	button "Hilfe" to help;
 	backgroundImage "background_menu.png";
 }
 
-TextPageDescription prologue1 {
+TextPage prologue1 {
 	backgroundImage "prologue.png";
-	next main; //TODO how to reference first level??		
+	next grassland;
 }
 
-TextPageDescription help {
+TextPage help {
 	paragraph "Use the arrows on your keyboard to move the hero.";
 	paragraph "Find your way through the apocalypse and take care! There are evil aliens out there!";
 	backgroundImage "background_menu.png";
 	next main;
 }
+
 
