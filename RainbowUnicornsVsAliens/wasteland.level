@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:elements="https://www.tu-bs.de/cs/isf/mbse/egg/level/elements" xmlns:level="https://www.tu-bs.de/cs/isf/mbse/egg/level" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms">
-  <pi:Diagram visible="true" gridUnit="10" diagramTypeId="levelDiagram" name="wasteland" snapToGrid="true" pictogramLinks="/0/@children.0/@link /0/@children.0/@children.109/@children.0/@link /0/@children.0/@children.111/@children.0/@link /0/@children.0/@children.113/@children.0/@link /0/@children.0/@children.24/@children.0/@link /0/@children.0/@children.29/@children.0/@link /0/@children.0/@children.34/@children.0/@link /0/@children.0/@children.39/@children.0/@link /0/@children.0/@children.44/@children.0/@link /0/@children.0/@children.49/@children.0/@link /0/@children.0/@children.54/@children.0/@link /0/@children.0/@children.59/@children.0/@link /0/@children.0/@children.79/@children.0/@link /0/@children.0/@children.84/@children.0/@link /0/@children.0/@children.89/@children.0/@link /0/@children.0/@children.83/@children.0/@link /0/@children.0/@children.88/@children.0/@link /0/@children.0/@children.58/@children.0/@link /0/@children.0/@children.57/@children.0/@link /0/@children.0/@children.53/@children.0/@link /0/@children.0/@children.48/@children.0/@link /0/@children.0/@children.108/@children.0/@link /0/@children.0/@children.90/@children.0/@link /0/@children.0/@children.87/@children.0/@link /0/@children.0/@children.110/@children.0/@link /0/@children.0/@children.47/@children.0/@link /0/@children.0/@children.112/@children.0/@link /0/@children.0/@children.56/@children.0/@link /0/@children.0/@children.51/@children.0/@link /0/@children.0/@children.52/@children.0/@link /0/@children.0/@children.23/@children.0/@link /0/@children.0/@children.82/@children.0/@link /0/@children.0/@children.33/@children.0/@link /0/@children.0/@children.43/@children.0/@link /0/@children.0/@children.38/@children.0/@link /0/@children.0/@children.78/@children.0/@link /0/@children.0/@children.144/@children.0/@link /0/@children.0/@children.145/@children.0/@link /0/@children.0/@children.146/@children.0/@link /0/@children.0/@children.149/@children.0/@link /0/@children.0/@children.150/@children.0/@link /0/@children.0/@children.151/@children.0/@link /0/@children.0/@children.152/@children.0/@link /0/@children.0/@children.153/@children.0/@link /0/@children.0/@children.154/@children.0/@link /0/@children.0/@children.155/@children.0/@link /0/@children.0/@children.156/@children.0/@link /0/@children.0/@children.157/@children.0/@link /0/@children.0/@children.158/@children.0/@link /0/@children.0/@children.159/@children.0/@link /0/@children.0/@children.160/@children.0/@link /0/@children.0/@children.161/@children.0/@link /0/@children.0/@children.121/@children.0/@link /0/@children.0/@children.127/@children.0/@link /0/@children.0/@children.131/@children.0/@link /0/@children.0/@children.125/@children.0/@link /0/@children.0/@children.135/@children.0/@link /0/@children.0/@children.141/@children.0/@link /0/@children.0/@children.139/@children.0/@link /0/@children.0/@children.137/@children.0/@link /0/@children.0/@children.129/@children.0/@link /0/@children.0/@children.119/@children.0/@link /0/@children.0/@children.143/@children.0/@link" version="0.13.0">
+  <pi:Diagram visible="true" gridUnit="10" diagramTypeId="levelDiagram" name="wasteland" snapToGrid="true" pictogramLinks="/0/@children.0/@link /0/@children.0/@children.109/@children.0/@link /0/@children.0/@children.111/@children.0/@link /0/@children.0/@children.113/@children.0/@link /0/@children.0/@children.29/@children.0/@link /0/@children.0/@children.34/@children.0/@link /0/@children.0/@children.39/@children.0/@link /0/@children.0/@children.44/@children.0/@link /0/@children.0/@children.49/@children.0/@link /0/@children.0/@children.54/@children.0/@link /0/@children.0/@children.59/@children.0/@link /0/@children.0/@children.79/@children.0/@link /0/@children.0/@children.84/@children.0/@link /0/@children.0/@children.83/@children.0/@link /0/@children.0/@children.88/@children.0/@link /0/@children.0/@children.58/@children.0/@link /0/@children.0/@children.53/@children.0/@link /0/@children.0/@children.48/@children.0/@link /0/@children.0/@children.108/@children.0/@link /0/@children.0/@children.90/@children.0/@link /0/@children.0/@children.110/@children.0/@link /0/@children.0/@children.47/@children.0/@link /0/@children.0/@children.112/@children.0/@link /0/@children.0/@children.57/@children.0/@link /0/@children.0/@children.52/@children.0/@link /0/@children.0/@children.82/@children.0/@link /0/@children.0/@children.33/@children.0/@link /0/@children.0/@children.43/@children.0/@link /0/@children.0/@children.38/@children.0/@link /0/@children.0/@children.78/@children.0/@link /0/@children.0/@children.144/@children.0/@link /0/@children.0/@children.145/@children.0/@link /0/@children.0/@children.146/@children.0/@link /0/@children.0/@children.149/@children.0/@link /0/@children.0/@children.150/@children.0/@link /0/@children.0/@children.151/@children.0/@link /0/@children.0/@children.152/@children.0/@link /0/@children.0/@children.153/@children.0/@link /0/@children.0/@children.154/@children.0/@link /0/@children.0/@children.155/@children.0/@link /0/@children.0/@children.156/@children.0/@link /0/@children.0/@children.157/@children.0/@link /0/@children.0/@children.158/@children.0/@link /0/@children.0/@children.159/@children.0/@link /0/@children.0/@children.160/@children.0/@link /0/@children.0/@children.161/@children.0/@link /0/@children.0/@children.121/@children.0/@link /0/@children.0/@children.127/@children.0/@link /0/@children.0/@children.131/@children.0/@link /0/@children.0/@children.125/@children.0/@link /0/@children.0/@children.135/@children.0/@link /0/@children.0/@children.141/@children.0/@link /0/@children.0/@children.139/@children.0/@link /0/@children.0/@children.137/@children.0/@link /0/@children.0/@children.129/@children.0/@link /0/@children.0/@children.119/@children.0/@link /0/@children.0/@children.143/@children.0/@link /0/@children.0/@children.170/@children.0/@link /0/@children.0/@children.179/@children.0/@link /0/@children.0/@children.188/@children.0/@link /0/@children.0/@children.197/@children.0/@link /0/@children.0/@children.184/@children.0/@link /0/@children.0/@children.193/@children.0/@link /0/@children.0/@children.165/@children.0/@link /0/@children.0/@children.174/@children.0/@link /0/@children.0/@children.223/@children.0/@link /0/@children.0/@children.232/@children.0/@link /0/@children.0/@children.241/@children.0/@link /0/@children.0/@children.250/@children.0/@link /0/@children.0/@children.259/@children.0/@link /0/@children.0/@children.268/@children.0/@link /0/@children.0/@children.277/@children.0/@link /0/@children.0/@children.286/@children.0/@link /0/@children.0/@children.295/@children.0/@link /0/@children.0/@children.94/@children.0/@link /0/@children.0/@children.95/@children.0/@link /0/@children.0/@children.231/@children.0/@link /0/@children.0/@children.240/@children.0/@link /0/@children.0/@children.249/@children.0/@link /0/@children.0/@children.258/@children.0/@link /0/@children.0/@children.267/@children.0/@link /0/@children.0/@children.276/@children.0/@link /0/@children.0/@children.248/@children.0/@link /0/@children.0/@children.257/@children.0/@link /0/@children.0/@children.266/@children.0/@link /0/@children.0/@children.89/@children.0/@link /0/@children.0/@children.166/@children.0/@link /0/@children.0/@children.175/@children.0/@link /0/@children.0/@children.320/@children.0/@link /0/@children.0/@children.329/@children.0/@link /0/@children.0/@children.338/@children.0/@link /0/@children.0/@children.337/@children.0/@link /0/@children.0/@children.328/@children.0/@link /0/@children.0/@children.222/@children.0/@link /0/@children.0/@children.275/@children.0/@link /0/@children.0/@children.336/@children.0/@link /0/@children.0/@children.87/@children.0/@link /0/@children.0/@children.285/@children.0/@link /0/@children.0/@children.187/@children.0/@link /0/@children.0/@children.230/@children.0/@link /0/@children.0/@children.247/@children.0/@link /0/@children.0/@children.239/@children.0/@link /0/@children.0/@children.327/@children.0/@link /0/@children.0/@children.319/@children.0/@link /0/@children.0/@children.256/@children.0/@link /0/@children.0/@children.294/@children.0/@link /0/@children.0/@children.183/@children.0/@link /0/@children.0/@children.164/@children.0/@link /0/@children.0/@children.178/@children.0/@link /0/@children.0/@children.196/@children.0/@link /0/@children.0/@children.123/@children.0/@link /0/@children.0/@children.133/@children.0/@link /0/@children.0/@children.265/@children.0/@link /0/@children.0/@children.24/@children.0/@link /0/@children.0/@children.28/@children.0/@link /0/@children.0/@children.192/@children.0/@link /0/@children.0/@children.173/@children.0/@link" version="0.13.0">
     <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
     <children xsi:type="pi:ContainerShape" visible="true" active="true">
-      <properties key="width" value="18"/>
+      <properties key="width" value="38"/>
       <properties key="height" value="9"/>
-      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.2" lineWidth="2" transparency="0.0" width="904" height="454" x="20" y="20"/>
+      <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.2" lineWidth="2" transparency="0.0" width="1904" height="454" x="20" y="20"/>
       <link businessObjects="wasteland"/>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="posX" value="0"/>
@@ -126,13 +126,6 @@
         <properties key="posX" value="4"/>
         <properties key="posY" value="3"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="202" y="152"/>
-        <children xsi:type="pi:ContainerShape" visible="true" active="true">
-          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="202" y="152"/>
-          <link businessObjects="/1/@elements.3/@value.1/@value"/>
-          <children visible="true">
-            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
-          </children>
-        </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="posX" value="4"/>
@@ -140,9 +133,9 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="202" y="202"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="202" y="202"/>
-          <link businessObjects="/1/@elements.3/@value.0/@value"/>
+          <link businessObjects="/1/@elements.3/@value.1/@value"/>
           <children visible="true">
-            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco02" stretchH="true" stretchV="true" proportional="true"/>
           </children>
         </children>
       </children>
@@ -165,6 +158,13 @@
         <properties key="posX" value="5"/>
         <properties key="posY" value="3"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="252" y="152"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="252" y="152"/>
+          <link businessObjects="/1/@elements.4/@value.4/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco02" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="posX" value="5"/>
@@ -350,13 +350,6 @@
         <properties key="posX" value="10"/>
         <properties key="posY" value="1"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="502" y="52"/>
-        <children xsi:type="pi:ContainerShape" visible="true" active="true">
-          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="502" y="52"/>
-          <link businessObjects="/1/@elements.9/@value.2/@value"/>
-          <children visible="true">
-            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
-          </children>
-        </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="posX" value="10"/>
@@ -364,9 +357,9 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="502" y="102"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="502" y="102"/>
-          <link businessObjects="/1/@elements.9/@value.3/@value"/>
+          <link businessObjects="/1/@elements.9/@value.4/@value"/>
           <children visible="true">
-            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
           </children>
         </children>
       </children>
@@ -403,13 +396,6 @@
         <properties key="posX" value="11"/>
         <properties key="posY" value="1"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="552" y="52"/>
-        <children xsi:type="pi:ContainerShape" visible="true" active="true">
-          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="552" y="52"/>
-          <link businessObjects="/1/@elements.10/@value.3/@value"/>
-          <children visible="true">
-            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco02" stretchH="true" stretchV="true" proportional="true"/>
-          </children>
-        </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="posX" value="11"/>
@@ -417,9 +403,9 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="552" y="102"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="552" y="102"/>
-          <link businessObjects="/1/@elements.10/@value.2/@value"/>
+          <link businessObjects="/1/@elements.10/@value.4/@value"/>
           <children visible="true">
-            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco02" stretchH="true" stretchV="true" proportional="true"/>
           </children>
         </children>
       </children>
@@ -623,9 +609,9 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="852" y="102"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="852" y="102"/>
-          <link businessObjects="/1/@elements.13/@value.2/@value"/>
+          <link businessObjects="/1/@elements.13/@value.4/@value"/>
           <children visible="true">
-            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.warpPoint-out" stretchH="true" stretchV="true" proportional="true"/>
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco01" stretchH="true" stretchV="true" proportional="true"/>
           </children>
         </children>
       </children>
@@ -635,7 +621,7 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="852" y="152"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="852" y="152"/>
-          <link businessObjects="/1/@elements.13/@value.1/@value"/>
+          <link businessObjects="/1/@elements.13/@value.0/@value"/>
           <children visible="true">
             <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
           </children>
@@ -647,9 +633,9 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="852" y="202"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="852" y="202"/>
-          <link businessObjects="/1/@elements.13/@value.0/@value"/>
+          <link businessObjects="/1/@elements.13/@value.3/@value"/>
           <children visible="true">
-            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.stone" stretchH="true" stretchV="true" proportional="true"/>
           </children>
         </children>
       </children>
@@ -661,7 +647,7 @@
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="2" y="252"/>
           <link businessObjects="/1/@elements.0/@value.2/@value"/>
           <children visible="true">
-            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.warpPoint-in" stretchH="true" stretchV="true" proportional="true"/>
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.warpPoint" stretchH="true" stretchV="true" proportional="true"/>
           </children>
         </children>
       </children>
@@ -684,11 +670,25 @@
         <properties key="posX" value="4"/>
         <properties key="posY" value="5"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="202" y="252"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="202" y="252"/>
+          <link businessObjects="/1/@elements.3/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="posX" value="5"/>
         <properties key="posY" value="5"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="252" y="252"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="252" y="252"/>
+          <link businessObjects="/1/@elements.4/@value.3/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="posX" value="6"/>
@@ -885,6 +885,13 @@
         <properties key="posX" value="7"/>
         <properties key="posY" value="7"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="352" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="352" y="352"/>
+          <link businessObjects="/1/@elements.6/@value.3/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="posX" value="8"/>
@@ -931,7 +938,7 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="502" y="352"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="502" y="352"/>
-          <link businessObjects="/1/@elements.9/@value.5/@value"/>
+          <link businessObjects="/1/@elements.9/@value.3/@value"/>
           <children visible="true">
             <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
           </children>
@@ -948,7 +955,7 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="552" y="352"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="552" y="352"/>
-          <link businessObjects="/1/@elements.10/@value.5/@value"/>
+          <link businessObjects="/1/@elements.10/@value.3/@value"/>
           <children visible="true">
             <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.slimy_alien01" stretchH="true" stretchV="true" proportional="true"/>
           </children>
@@ -963,6 +970,13 @@
         <properties key="posX" value="12"/>
         <properties key="posY" value="7"/>
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="602" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="602" y="352"/>
+          <link businessObjects="/1/@elements.14/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco02" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
       </children>
       <children xsi:type="pi:ContainerShape" visible="true">
         <properties key="posX" value="13"/>
@@ -1043,7 +1057,7 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="852" y="352"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="852" y="352"/>
-          <link businessObjects="/1/@elements.13/@value.4/@value"/>
+          <link businessObjects="/1/@elements.13/@value.2/@value"/>
           <children visible="true">
             <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.slimy_alien01" stretchH="true" stretchV="true" proportional="true"/>
           </children>
@@ -1161,7 +1175,7 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="502" y="402"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="502" y="402"/>
-          <link businessObjects="/1/@elements.9/@value.4/@value"/>
+          <link businessObjects="/1/@elements.9/@value.2/@value"/>
           <children visible="true">
             <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
           </children>
@@ -1173,7 +1187,7 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="552" y="402"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="552" y="402"/>
-          <link businessObjects="/1/@elements.10/@value.4/@value"/>
+          <link businessObjects="/1/@elements.10/@value.2/@value"/>
           <children visible="true">
             <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
           </children>
@@ -1245,11 +1259,1275 @@
         <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="852" y="402"/>
         <children xsi:type="pi:ContainerShape" visible="true" active="true">
           <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="852" y="402"/>
-          <link businessObjects="/1/@elements.13/@value.3/@value"/>
+          <link businessObjects="/1/@elements.13/@value.1/@value"/>
           <children visible="true">
             <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
           </children>
         </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="18"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="902" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="18"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="902" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="18"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="902" y="102"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="902" y="102"/>
+          <link businessObjects="/1/@elements.17/@value.3/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="18"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="902" y="152"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="902" y="152"/>
+          <link businessObjects="/1/@elements.17/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="18"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="902" y="202"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="902" y="202"/>
+          <link businessObjects="/1/@elements.17/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.stone" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="18"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="902" y="252"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="18"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="902" y="302"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="18"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="902" y="352"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="18"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="902" y="402"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="902" y="402"/>
+          <link businessObjects="/1/@elements.17/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="19"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="952" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="19"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="952" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="19"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="952" y="102"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="952" y="102"/>
+          <link businessObjects="/1/@elements.18/@value.4/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco02" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="19"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="952" y="152"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="952" y="152"/>
+          <link businessObjects="/1/@elements.18/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="19"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="952" y="202"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="952" y="202"/>
+          <link businessObjects="/1/@elements.18/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.stone" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="19"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="952" y="252"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="19"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="952" y="302"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="19"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="952" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="952" y="352"/>
+          <link businessObjects="/1/@elements.18/@value.3/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="19"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="952" y="402"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="952" y="402"/>
+          <link businessObjects="/1/@elements.18/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="20"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1002" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="20"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1002" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="20"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1002" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="20"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1002" y="152"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1002" y="152"/>
+          <link businessObjects="/1/@elements.19/@value.3/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="20"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1002" y="202"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1002" y="202"/>
+          <link businessObjects="/1/@elements.19/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="20"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1002" y="252"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="20"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1002" y="302"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="20"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1002" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1002" y="352"/>
+          <link businessObjects="/1/@elements.19/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco01" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="20"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1002" y="402"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1002" y="402"/>
+          <link businessObjects="/1/@elements.19/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="21"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1052" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="21"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1052" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="21"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1052" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="21"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1052" y="152"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1052" y="152"/>
+          <link businessObjects="/1/@elements.20/@value.3/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco02" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="21"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1052" y="202"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1052" y="202"/>
+          <link businessObjects="/1/@elements.20/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="21"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1052" y="252"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="21"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1052" y="302"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="21"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1052" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1052" y="352"/>
+          <link businessObjects="/1/@elements.20/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="21"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1052" y="402"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1052" y="402"/>
+          <link businessObjects="/1/@elements.20/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="22"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1102" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="22"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1102" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="22"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1102" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="22"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1102" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="22"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1102" y="202"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="22"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1102" y="252"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="22"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1102" y="302"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="22"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1102" y="352"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="22"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1102" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="23"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1152" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="23"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1152" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="23"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1152" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="23"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1152" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="23"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1152" y="202"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="23"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1152" y="252"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="23"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1152" y="302"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="23"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1152" y="352"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="23"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1152" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="24"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1202" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="24"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1202" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="24"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1202" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="24"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1202" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="24"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1202" y="202"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="24"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1202" y="252"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="24"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1202" y="302"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1202" y="302"/>
+          <link businessObjects="/1/@elements.21/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.slimy_alien01" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="24"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1202" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1202" y="352"/>
+          <link businessObjects="/1/@elements.21/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="24"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1202" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="25"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1252" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="25"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1252" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="25"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1252" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="25"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1252" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="25"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1252" y="202"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="25"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1252" y="252"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1252" y="252"/>
+          <link businessObjects="/1/@elements.22/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco01" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="25"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1252" y="302"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1252" y="302"/>
+          <link businessObjects="/1/@elements.22/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="25"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1252" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1252" y="352"/>
+          <link businessObjects="/1/@elements.22/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="25"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1252" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="26"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1302" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="26"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1302" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="26"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1302" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="26"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1302" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="26"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1302" y="202"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="26"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1302" y="252"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1302" y="252"/>
+          <link businessObjects="/1/@elements.23/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="26"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1302" y="302"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1302" y="302"/>
+          <link businessObjects="/1/@elements.23/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="26"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1302" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1302" y="352"/>
+          <link businessObjects="/1/@elements.23/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="26"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1302" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="27"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1352" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="27"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1352" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="27"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1352" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="27"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1352" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="27"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1352" y="202"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1352" y="202"/>
+          <link businessObjects="/1/@elements.24/@value.3/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco01" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="27"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1352" y="252"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1352" y="252"/>
+          <link businessObjects="/1/@elements.24/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="27"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1352" y="302"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1352" y="302"/>
+          <link businessObjects="/1/@elements.24/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="27"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1352" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1352" y="352"/>
+          <link businessObjects="/1/@elements.24/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="27"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1352" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="28"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1402" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="28"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1402" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="28"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1402" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="28"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1402" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="28"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1402" y="202"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1402" y="202"/>
+          <link businessObjects="/1/@elements.25/@value.3/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="28"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1402" y="252"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1402" y="252"/>
+          <link businessObjects="/1/@elements.25/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="28"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1402" y="302"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1402" y="302"/>
+          <link businessObjects="/1/@elements.25/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="28"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1402" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1402" y="352"/>
+          <link businessObjects="/1/@elements.25/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="28"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1402" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="29"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1452" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="29"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1452" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="29"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1452" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="29"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1452" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="29"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1452" y="202"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1452" y="202"/>
+          <link businessObjects="/1/@elements.26/@value.3/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco02" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="29"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1452" y="252"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1452" y="252"/>
+          <link businessObjects="/1/@elements.26/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="29"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1452" y="302"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1452" y="302"/>
+          <link businessObjects="/1/@elements.26/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="29"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1452" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1452" y="352"/>
+          <link businessObjects="/1/@elements.26/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="29"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1452" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="30"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1502" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="30"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1502" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="30"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1502" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="30"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1502" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="30"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1502" y="202"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="30"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1502" y="252"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1502" y="252"/>
+          <link businessObjects="/1/@elements.27/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.slimy_alien01" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="30"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1502" y="302"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1502" y="302"/>
+          <link businessObjects="/1/@elements.27/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="30"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1502" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1502" y="352"/>
+          <link businessObjects="/1/@elements.27/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="30"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1502" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="31"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1552" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="31"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1552" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="31"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1552" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="31"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1552" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="31"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1552" y="202"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="31"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1552" y="252"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="31"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1552" y="302"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1552" y="302"/>
+          <link businessObjects="/1/@elements.28/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco01" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="31"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1552" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1552" y="352"/>
+          <link businessObjects="/1/@elements.28/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="31"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1552" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="32"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1602" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="32"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1602" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="32"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1602" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="32"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1602" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="32"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1602" y="202"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="32"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1602" y="252"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="32"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1602" y="302"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1602" y="302"/>
+          <link businessObjects="/1/@elements.29/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="32"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1602" y="352"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1602" y="352"/>
+          <link businessObjects="/1/@elements.29/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="32"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1602" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="33"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1652" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="33"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1652" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="33"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1652" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="33"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1652" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="33"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1652" y="202"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="33"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1652" y="252"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="33"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1652" y="302"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="33"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1652" y="352"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="33"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1652" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="34"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1702" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="34"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1702" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="34"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1702" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="34"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1702" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="34"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1702" y="202"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="34"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1702" y="252"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="34"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1702" y="302"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="34"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1702" y="352"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="34"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1702" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="35"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1752" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="35"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1752" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="35"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1752" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="35"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1752" y="152"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="35"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1752" y="202"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1752" y="202"/>
+          <link businessObjects="/1/@elements.32/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="35"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1752" y="252"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1752" y="252"/>
+          <link businessObjects="/1/@elements.32/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.stone" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="35"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1752" y="302"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="35"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1752" y="352"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="35"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1752" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="36"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1802" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="36"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1802" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="36"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1802" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="36"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1802" y="152"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1802" y="152"/>
+          <link businessObjects="/1/@elements.31/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.earth_deco03" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="36"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1802" y="202"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1802" y="202"/>
+          <link businessObjects="/1/@elements.31/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.stone" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="36"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1802" y="252"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1802" y="252"/>
+          <link businessObjects="/1/@elements.31/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.stone" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="36"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1802" y="302"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="36"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1802" y="352"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="36"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1802" y="402"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="37"/>
+        <properties key="posY" value="0"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1852" y="2"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="37"/>
+        <properties key="posY" value="1"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1852" y="52"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="37"/>
+        <properties key="posY" value="2"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1852" y="102"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="37"/>
+        <properties key="posY" value="3"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1852" y="152"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1852" y="152"/>
+          <link businessObjects="/1/@elements.30/@value.2/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.warpPoint-out" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="37"/>
+        <properties key="posY" value="4"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1852" y="202"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1852" y="202"/>
+          <link businessObjects="/1/@elements.30/@value.1/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.stone" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="37"/>
+        <properties key="posY" value="5"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1852" y="252"/>
+        <children xsi:type="pi:ContainerShape" visible="true" active="true">
+          <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" lineWidth="0" lineVisible="false" transparency="0.0" width="50" height="50" x="1852" y="252"/>
+          <link businessObjects="/1/@elements.30/@value.0/@value"/>
+          <children visible="true">
+            <graphicsAlgorithm xsi:type="al:Image" lineWidth="1" transparency="0.0" width="50" height="50" id="de.tu_bs.cs.isf.mbse.egg.RainbowUnicornsVsAliens.stone" stretchH="true" stretchV="true" proportional="true"/>
+          </children>
+        </children>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="37"/>
+        <properties key="posY" value="6"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1852" y="302"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="37"/>
+        <properties key="posY" value="7"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1852" y="352"/>
+      </children>
+      <children xsi:type="pi:ContainerShape" visible="true">
+        <properties key="posX" value="37"/>
+        <properties key="posY" value="8"/>
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="/0/@colors.1" foreground="/0/@colors.3" lineWidth="1" lineStyle="DASH" transparency="0.0" width="50" height="50" x="1852" y="402"/>
       </children>
     </children>
     <colors red="227" green="238" blue="249"/>
@@ -1257,7 +2535,7 @@
     <colors/>
     <colors red="127" green="127" blue="255"/>
   </pi:Diagram>
-  <level:Level name="wasteland" width="18" height="9" elementSize="50">
+  <level:Level name="wasteland" width="38" height="9" elementSize="50">
     <elements key="0">
       <value key="7">
         <value xsi:type="elements:PlacedBlock" positionY="7">
@@ -1270,7 +2548,9 @@
         </value>
       </value>
       <value key="5">
-        <value xsi:type="elements:WarpPoint" positionY="5"/>
+        <value xsi:type="elements:WarpPoint" positionY="5" warpTo="grassland">
+          <heroOnEntry href="characters.egg#rainbowUnicorn"/>
+        </value>
       </value>
       <value key="8">
         <value xsi:type="elements:PlacedBlock" positionY="8">
@@ -1313,14 +2593,14 @@
       </value>
     </elements>
     <elements key="4">
-      <value key="4">
-        <value xsi:type="elements:PlacedBlock" positionX="4" positionY="4">
+      <value key="5">
+        <value xsi:type="elements:PlacedBlock" positionX="4" positionY="5">
           <properties href="blocks.egg#earth"/>
         </value>
       </value>
-      <value key="3">
-        <value xsi:type="elements:PlacedBlock" positionX="4" positionY="3">
-          <properties href="blocks.egg#earthDeco3"/>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="4" positionY="4">
+          <properties href="blocks.egg#earthDeco2"/>
         </value>
       </value>
     </elements>
@@ -1337,6 +2617,16 @@
       </value>
       <value key="7">
         <value xsi:type="elements:PlacedBlock" positionX="5" positionY="7">
+          <properties href="blocks.egg#earthDeco2"/>
+        </value>
+      </value>
+      <value key="5">
+        <value xsi:type="elements:PlacedBlock" positionX="5" positionY="5">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="3">
+        <value xsi:type="elements:PlacedBlock" positionX="5" positionY="3">
           <properties href="blocks.egg#earthDeco2"/>
         </value>
       </value>
@@ -1377,6 +2667,11 @@
       <value key="8">
         <value xsi:type="elements:PlacedBlock" positionX="7" positionY="8">
           <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="7" positionY="7">
+          <properties href="blocks.egg#earthDeco3"/>
         </value>
       </value>
     </elements>
@@ -1440,16 +2735,6 @@
           <properties href="blocks.egg#earth"/>
         </value>
       </value>
-      <value key="1">
-        <value xsi:type="elements:PlacedBlock" positionX="10" positionY="1">
-          <properties href="blocks.egg#earthDeco3"/>
-        </value>
-      </value>
-      <value key="2">
-        <value xsi:type="elements:PlacedBlock" positionX="10" positionY="2">
-          <properties href="blocks.egg#earth"/>
-        </value>
-      </value>
       <value key="8">
         <value xsi:type="elements:PlacedBlock" positionX="10" positionY="8">
           <properties href="blocks.egg#earth"/>
@@ -1457,6 +2742,11 @@
       </value>
       <value key="7">
         <value xsi:type="elements:PlacedBlock" positionX="10" positionY="7">
+          <properties href="blocks.egg#earthDeco3"/>
+        </value>
+      </value>
+      <value key="2">
+        <value xsi:type="elements:PlacedBlock" positionX="10" positionY="2">
           <properties href="blocks.egg#earthDeco3"/>
         </value>
       </value>
@@ -1472,16 +2762,6 @@
           <properties href="blocks.egg#earth"/>
         </value>
       </value>
-      <value key="2">
-        <value xsi:type="elements:PlacedBlock" positionX="11" positionY="2">
-          <properties href="blocks.egg#earth"/>
-        </value>
-      </value>
-      <value key="1">
-        <value xsi:type="elements:PlacedBlock" positionX="11" positionY="1">
-          <properties href="blocks.egg#earthDeco2"/>
-        </value>
-      </value>
       <value key="8">
         <value xsi:type="elements:PlacedBlock" positionX="11" positionY="8">
           <properties href="blocks.egg#earth"/>
@@ -1490,6 +2770,11 @@
       <value key="7">
         <value xsi:type="elements:PlacedEnemy" positionX="11" positionY="7">
           <properties href="characters.egg#slimyAlien"/>
+        </value>
+      </value>
+      <value key="2">
+        <value xsi:type="elements:PlacedBlock" positionX="11" positionY="2">
+          <properties href="blocks.egg#earthDeco2"/>
         </value>
       </value>
     </elements>
@@ -1543,18 +2828,10 @@
       </value>
     </elements>
     <elements key="17">
-      <value key="4">
-        <value xsi:type="elements:PlacedBlock" positionX="17" positionY="4">
-          <properties href="blocks.egg#earth"/>
-        </value>
-      </value>
       <value key="3">
         <value xsi:type="elements:PlacedBlock" positionX="17" positionY="3">
           <properties href="blocks.egg#earth"/>
         </value>
-      </value>
-      <value key="2">
-        <value xsi:type="elements:WarpPoint" positionX="17" positionY="2" warpTo="alienMothership"/>
       </value>
       <value key="8">
         <value xsi:type="elements:PlacedBlock" positionX="17" positionY="8">
@@ -1566,11 +2843,26 @@
           <properties href="characters.egg#slimyAlien"/>
         </value>
       </value>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="17" positionY="4">
+          <properties href="blocks.egg#stone"/>
+        </value>
+      </value>
+      <value key="2">
+        <value xsi:type="elements:PlacedBlock" positionX="17" positionY="2">
+          <properties href="blocks.egg#earthDeco1"/>
+        </value>
+      </value>
     </elements>
     <elements key="12">
       <value key="8">
         <value xsi:type="elements:PlacedBlock" positionX="12" positionY="8">
           <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="12" positionY="7">
+          <properties href="blocks.egg#earthDeco2"/>
         </value>
       </value>
     </elements>
@@ -1595,6 +2887,296 @@
       <value key="7">
         <value xsi:type="elements:PlacedBlock" positionX="14" positionY="7">
           <properties href="blocks.egg#earthDeco2"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="18">
+      <value key="8">
+        <value xsi:type="elements:PlacedBlock" positionX="18" positionY="8">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="3">
+        <value xsi:type="elements:PlacedBlock" positionX="18" positionY="3">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="18" positionY="4">
+          <properties href="blocks.egg#stone"/>
+        </value>
+      </value>
+      <value key="2">
+        <value xsi:type="elements:PlacedBlock" positionX="18" positionY="2">
+          <properties href="blocks.egg#earthDeco3"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="19">
+      <value key="8">
+        <value xsi:type="elements:PlacedBlock" positionX="19" positionY="8">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="3">
+        <value xsi:type="elements:PlacedBlock" positionX="19" positionY="3">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="19" positionY="4">
+          <properties href="blocks.egg#stone"/>
+        </value>
+      </value>
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="19" positionY="7">
+          <properties href="blocks.egg#earthDeco3"/>
+        </value>
+      </value>
+      <value key="2">
+        <value xsi:type="elements:PlacedBlock" positionX="19" positionY="2">
+          <properties href="blocks.egg#earthDeco2"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="20">
+      <value key="8">
+        <value xsi:type="elements:PlacedBlock" positionX="20" positionY="8">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="20" positionY="4">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="20" positionY="7">
+          <properties href="blocks.egg#earthDeco1"/>
+        </value>
+      </value>
+      <value key="3">
+        <value xsi:type="elements:PlacedBlock" positionX="20" positionY="3">
+          <properties href="blocks.egg#earthDeco3"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="21">
+      <value key="8">
+        <value xsi:type="elements:PlacedBlock" positionX="21" positionY="8">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="21" positionY="4">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="21" positionY="7">
+          <properties href="blocks.egg#earthDeco3"/>
+        </value>
+      </value>
+      <value key="3">
+        <value xsi:type="elements:PlacedBlock" positionX="21" positionY="3">
+          <properties href="blocks.egg#earthDeco2"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="24">
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="24" positionY="7">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="6">
+        <value xsi:type="elements:PlacedEnemy" positionX="24" positionY="6">
+          <properties href="characters.egg#slimyAlien"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="25">
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="25" positionY="7">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="6">
+        <value xsi:type="elements:PlacedBlock" positionX="25" positionY="6">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="5">
+        <value xsi:type="elements:PlacedBlock" positionX="25" positionY="5">
+          <properties href="blocks.egg#earthDeco1"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="26">
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="26" positionY="7">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="6">
+        <value xsi:type="elements:PlacedBlock" positionX="26" positionY="6">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="5">
+        <value xsi:type="elements:PlacedBlock" positionX="26" positionY="5">
+          <properties href="blocks.egg#earthDeco3"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="27">
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="27" positionY="7">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="6">
+        <value xsi:type="elements:PlacedBlock" positionX="27" positionY="6">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="5">
+        <value xsi:type="elements:PlacedBlock" positionX="27" positionY="5">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="27" positionY="4">
+          <properties href="blocks.egg#earthDeco1"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="28">
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="28" positionY="7">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="6">
+        <value xsi:type="elements:PlacedBlock" positionX="28" positionY="6">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="5">
+        <value xsi:type="elements:PlacedBlock" positionX="28" positionY="5">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="28" positionY="4">
+          <properties href="blocks.egg#earthDeco3"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="29">
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="29" positionY="7">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="6">
+        <value xsi:type="elements:PlacedBlock" positionX="29" positionY="6">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="5">
+        <value xsi:type="elements:PlacedBlock" positionX="29" positionY="5">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="29" positionY="4">
+          <properties href="blocks.egg#earthDeco2"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="30">
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="30" positionY="7">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="6">
+        <value xsi:type="elements:PlacedBlock" positionX="30" positionY="6">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="5">
+        <value xsi:type="elements:PlacedEnemy" positionX="30" positionY="5">
+          <properties href="characters.egg#slimyAlien"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="31">
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="31" positionY="7">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="6">
+        <value xsi:type="elements:PlacedBlock" positionX="31" positionY="6">
+          <properties href="blocks.egg#earthDeco1"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="32">
+      <value key="7">
+        <value xsi:type="elements:PlacedBlock" positionX="32" positionY="7">
+          <properties href="blocks.egg#earth"/>
+        </value>
+      </value>
+      <value key="6">
+        <value xsi:type="elements:PlacedBlock" positionX="32" positionY="6">
+          <properties href="blocks.egg#earthDeco3"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="37">
+      <value key="5">
+        <value xsi:type="elements:PlacedBlock" positionX="37" positionY="5">
+          <properties href="blocks.egg#stone"/>
+        </value>
+      </value>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="37" positionY="4">
+          <properties href="blocks.egg#stone"/>
+        </value>
+      </value>
+      <value key="3">
+        <value xsi:type="elements:WarpPoint" positionX="37" positionY="3" warpTo="alienMothership"/>
+      </value>
+    </elements>
+    <elements key="36">
+      <value key="5">
+        <value xsi:type="elements:PlacedBlock" positionX="36" positionY="5">
+          <properties href="blocks.egg#stone"/>
+        </value>
+      </value>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="36" positionY="4">
+          <properties href="blocks.egg#stone"/>
+        </value>
+      </value>
+      <value key="3">
+        <value xsi:type="elements:PlacedBlock" positionX="36" positionY="3">
+          <properties href="blocks.egg#earthDeco3"/>
+        </value>
+      </value>
+    </elements>
+    <elements key="35">
+      <value key="5">
+        <value xsi:type="elements:PlacedBlock" positionX="35" positionY="5">
+          <properties href="blocks.egg#stone"/>
+        </value>
+      </value>
+      <value key="4">
+        <value xsi:type="elements:PlacedBlock" positionX="35" positionY="4">
+          <properties href="blocks.egg#earthDeco3"/>
         </value>
       </value>
     </elements>

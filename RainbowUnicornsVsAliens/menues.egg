@@ -1,7 +1,7 @@
 TextPage gametitle {
 	startPage;
 	backgroundImage "title.png";
-	next main;
+	next "main";
 }
 
 MenuPage main {
@@ -12,14 +12,14 @@ MenuPage main {
 
 TextPage prologue1 {
 	backgroundImage "prologue.png";
-	next grassland;
+	next "grassland";
 }
 
 TextPage help {
 	paragraph "Use the arrows on your keyboard to move the hero.";
 	paragraph "Find your way through the apocalypse and take care! There are evil aliens out there!";
 	backgroundImage "background_menu.png";
-	next main;
+	next "main";
 }
 
 
