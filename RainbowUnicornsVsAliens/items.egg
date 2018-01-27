@@ -1,7 +1,7 @@
 Item apple {
 	scorePoints 0;
 	consumable;
-	effect JUMPPOWER +2;
+	effect jumpPower +2;
 	Animation {
 		pictures "apple.png";
 		duration 1;

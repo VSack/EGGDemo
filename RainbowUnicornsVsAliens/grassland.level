@@ -1378,7 +1378,7 @@
         </value>
       </value>
       <value key="5">
-        <value xsi:type="elements:WarpPoint" positionX="18" positionY="5" warpTo="wasteland" entry="false"/>
+        <value xsi:type="elements:WarpPoint" positionX="18" positionY="5" warpTo="wasteland"/>
       </value>
     </elements>
     <elements key="0">
@@ -1393,9 +1393,7 @@
         </value>
       </value>
       <value key="5">
-        <value xsi:type="elements:WarpPoint" positionY="5">
-          <changeHeroTo href="characters.egg#rainbowUnicorn"/>
-        </value>
+        <value xsi:type="elements:WarpPoint" positionY="5"/>
       </value>
     </elements>
     <elements key="1">
