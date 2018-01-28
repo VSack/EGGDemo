@@ -1,13 +1,14 @@
 Hero rainbowUnicorn {
-	collisionBox 80, 80;	
+	collisionBox 80, 80;
+	showCollisionBox;	
 	
 	inventoryItemTypes apple, coin;
 	inventoryItemCounts 1, 50;
 	
 	inventorySize 4;
-	jumpPower 50;
+	jumpPower 65;
 	maxLife 10;
-	speed 5;
+	speed 7;
 	strength 3;
 	
 	run Animation {

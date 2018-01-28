@@ -2535,7 +2535,7 @@
     <colors/>
     <colors red="127" green="127" blue="255"/>
   </pi:Diagram>
-  <level:Level name="wasteland" width="38" height="9" elementSize="50">
+  <level:Level name="wasteland" width="38" height="9" elementSize="50" backgroundImage="wasteland.png">
     <elements key="0">
       <value key="7">
         <value xsi:type="elements:PlacedBlock" positionY="7">

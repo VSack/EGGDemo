@@ -215,7 +215,7 @@ function Character() {
 Character.prototype.addIdleImage = function(imageURL) {
 	var image = new Image();
 	image.src = imageURL;
-	
+    
 	this.idleImages.push(image);
 }
 
@@ -465,6 +465,11 @@ function EnemyCharacter() {
     this.movable = false;
     
     this.currentMove = 0;
+    
+    this.idleImages = [];
+	this.attackImages = [];
+	this.runImages = [];
+	this.jumpImages = [];
 }
 
 
@@ -557,6 +562,11 @@ HeroCharacter.prototype = new Character();
 
 function HeroCharacter() {
     this.movable = true;
+    
+    this.idleImages = [];
+	this.attackImages = [];
+	this.runImages = [];
+	this.jumpImages = [];
 }
 
 
@@ -800,12 +810,21 @@ DisplayPage.prototype.drawBackground = function drawBackground(xPercent, yPercen
     
 	xPercent = Math.max(Math.min(xPercent, 1), 0);
 	yPercent = Math.max(Math.min(yPercent, 1), 0);
+    
+    var imageWidth = this.backgroundImage.width;
+    var imageHeight = this.backgroundImage.height;
+    
+    var ratio = height / imageHeight;
+    var additionalZoom = 1 - Math.max(width - this.backgroundImage.width * ratio, 0) / width;
+    ratio = ratio / additionalZoom;
+    
+    if(Math.random() < 0.01)
+        console.log(additionalZoom);
 	
-	var offset = function () {  return {  x: 0,  y: 0  };  }
-	offset.x = (this.backgroundImage.width - width) * xPercent;
-	offset.y = (this.backgroundImage.height - height) * yPercent;
+	var offsetX = (this.backgroundImage.width * ratio - width) * xPercent;
+    var offsetY = (this.backgroundImage.height * ratio - height);
 	
-	ctx.drawImage(this.backgroundImage, -offset.x, -offset.y);
+	ctx.drawImage(this.backgroundImage, -offsetX, -offsetY, this.backgroundImage.width * ratio, this.backgroundImage.height * ratio);
 }
 
 DisplayPage.prototype.keyPressed = function(event) {
@@ -862,22 +881,12 @@ LevelPage.prototype.addEnemy = function(givenEnemy, x, y) {
     newEnemy.movable = givenEnemy.movable;
     
 	newEnemy.positionX = x;
-	newEnemy.positionY = y;
-	newEnemy.positionY = y-1 + (givenEnemy.collisionBoxY/2) / blockSize;
+	newEnemy.positionY = y-1 + (givenEnemy.collisionBoxY/2) / this.blockSize;
     
 	newEnemy.idleImages = givenEnemy.idleImages;
 	newEnemy.attackImages = givenEnemy.attackImages;
 	newEnemy.runImages = givenEnemy.runImages;
 	newEnemy.jumpImages = givenEnemy.jumpImages;
-	
-    /*for(var i=0; i<givenEnemy.idleImages.length; i++)
-	   newEnemy.idleImages.push(givenEnemy.idleImages[i]);
-    for(var i=0; i<givenEnemy.attackImages.length; i++)
-	   newEnemy.attackImages.push(givenEnemy.attackImages[i]);
-    for(var i=0; i<givenEnemy.runImages.length; i++)
-        newEnemy.addRunImage(givenEnemy.runImages[i].src);
-    for(var i=0; i<givenEnemy.jumpImages.length; i++)
-	   newEnemy.jumpImages.push(givenEnemy.jumpImages[i]);*/
 	
 	newEnemy.collisionBoxX = givenEnemy.collisionBoxX;
 	newEnemy.collisionBoxY = givenEnemy.collisionBoxY;
@@ -1263,10 +1272,11 @@ function setupPages() {
 	
 	// Hero to the description with name "rainbowUnicorn"
 	var rainbowUnicorn = new HeroCharacter();
-	rainbowUnicorn.setCollisionBox(100, 100);
-	rainbowUnicorn.jumpPower = 50;
+	rainbowUnicorn.setCollisionBox(80, 80);
+	rainbowUnicorn.showCollisionBox = true;
+	rainbowUnicorn.jumpPower = 65;
 	rainbowUnicorn.life = 10;
-	rainbowUnicorn.speed = 5;
+	rainbowUnicorn.speed = 7;
 	rainbowUnicorn.strength = 3;
 	rainbowUnicorn.addRunImage("images/hero01.png");
 	rainbowUnicorn.addRunImage("images/hero02.png");
@@ -1345,17 +1355,196 @@ function setupPages() {
 	// Text Page to the description with name "help"
 	var help = new TextPage();
 	help.setPageKey("help");
-	help.addParagraph("Use the arrows on your keyboard to move the hero.");
-	help.addParagraph("Find your way through the apocalypse and take care! There are evil aliens out there!");
+	help.addParagraph("How to Save the World. For Dummys.");
+	help.addParagraph("-----------------------------------------------");
+	help.addParagraph(" ");
+	help.addParagraph("Benutze die Pfeiltasten auf deiner Tastatur, um den Helden zu steuern.");
+	help.addParagraph(" ");
+	help.addParagraph("Finde deinen Weg durch die Apokalypse - aber pass auf! Es sind gefährliche Aliens unterwegs!");
 	help.setBackgroundImage("images/background_menu.png");
 	help.newPageKey = "main";
 	pages.push(help);
 
+	// Level "alienMothership"
+	var alienMothership = new LevelPage();
+	alienMothership.setPageKey("alienMothership");
+	alienMothership.blockSize = 50;
+	alienMothership.gravity = 10,000000;
+	alienMothership.setBackgroundImage("images/alienMothership.png");
+	alienMothership.addBlock(metal, 0, 0);
+	alienMothership.addHero(rainbowUnicorn, 0, 1);
+	alienMothership.addBlock(metal, 0, 4);
+	alienMothership.addBlock(metal, 0, 9);
+	alienMothership.addBlock(metal, 0, 7);
+	alienMothership.addBlock(metal, 0, 6);
+	alienMothership.addBlock(metal, 0, 5);
+	alienMothership.addBlock(metal, 0, 10);
+	alienMothership.addBlock(metal, 0, 11);
+	alienMothership.addBlock(metal, 0, 8);
+	alienMothership.addBlock(cableLeft, 0, 3);
+	alienMothership.addBlock(metal, 0, 19);
+	alienMothership.addBlock(metal, 0, 18);
+	alienMothership.addBlock(metal, 0, 17);
+	alienMothership.addBlock(metal, 0, 16);
+	alienMothership.addBlock(metal, 0, 15);
+	alienMothership.addBlock(metal, 0, 14);
+	alienMothership.addBlock(metal, 0, 13);
+	alienMothership.addBlock(metal, 0, 12);
+	alienMothership.addBlock(metal, 0, 20);
+	alienMothership.addBlock(metal, 0, 26);
+	alienMothership.addBlock(metal, 0, 25);
+	alienMothership.addBlock(metal, 0, 24);
+	alienMothership.addBlock(metal, 0, 23);
+	alienMothership.addBlock(metal, 0, 22);
+	alienMothership.addBlock(metal, 0, 21);
+	alienMothership.addBlock(metal, 0, 28);
+	alienMothership.addBlock(metal, 0, 27);
+	alienMothership.addBlock(metal, 0, 33);
+	alienMothership.addBlock(metal, 0, 32);
+	alienMothership.addBlock(metal, 0, 31);
+	alienMothership.addBlock(metal, 0, 30);
+	alienMothership.addBlock(metal, 0, 29);
+	alienMothership.addBlock(metal, 0, 37);
+	alienMothership.addBlock(metal, 0, 36);
+	alienMothership.addBlock(metal, 0, 35);
+	alienMothership.addBlock(metal, 0, 34);
+	alienMothership.addBlock(metal, 1, 0);
+	alienMothership.addBlock(metal, 1, 4);
+	alienMothership.addBlock(metal, 1, 11);
+	alienMothership.addBlock(metal, 1, 5);
+	alienMothership.addBlock(cableLeft, 1, 10);
+	alienMothership.addBlock(metal, 1, 13);
+	alienMothership.addBlock(metal, 1, 12);
+	alienMothership.addBlock(metal, 1, 19);
+	alienMothership.addBlock(cableLeft, 1, 18);
+	alienMothership.addBlock(metal, 1, 20);
+	alienMothership.addBlock(metal, 1, 21);
+	alienMothership.addBlock(metal, 1, 27);
+	alienMothership.addBlock(metal, 1, 28);
+	alienMothership.addBlock(metal, 1, 33);
+	alienMothership.addBlock(metal, 1, 32);
+	alienMothership.addBlock(cableLeft, 1, 26);
+	alienMothership.addBlock(cableLeft, 1, 31);
+	alienMothership.addEnemy(tentacleAlien, 1, 34);
+	alienMothership.addEnemy(tentacleAlien, 1, 37);
+	alienMothership.addEnemy(tentacleAlien, 1, 36);
+	alienMothership.addEnemy(tentacleAlien, 1, 35);
+	alienMothership.addBlock(metal, 2, 0);
+	alienMothership.addBlock(metal, 2, 4);
+	alienMothership.addBlock(metal, 2, 11);
+	alienMothership.addBlock(metal, 2, 5);
+	alienMothership.addBlock(metal, 2, 12);
+	alienMothership.addBlock(metal, 2, 19);
+	alienMothership.addBlock(metal, 2, 20);
+	alienMothership.addBlock(metal, 2, 27);
+	alienMothership.addBlock(metal, 2, 28);
+	alienMothership.addBlock(metal, 2, 33);
+	alienMothership.addEnemy(tentacleAlien, 2, 36);
+	alienMothership.addEnemy(tentacleAlien, 2, 34);
+	alienMothership.addBlock(metal, 3, 0);
+	alienMothership.addBlock(metal, 3, 4);
+	alienMothership.addBlock(metal, 3, 11);
+	alienMothership.addBlock(metal, 3, 19);
+	alienMothership.addBlock(cable, 3, 18);
+	alienMothership.addBlock(metal, 3, 27);
+	alienMothership.addBlock(metal, 3, 33);
+	alienMothership.addBlock(cable, 3, 26);
+	alienMothership.addBlock(cable, 3, 32);
+	alienMothership.addBlock(cable, 3, 3);
+	alienMothership.addBlock(metal, 4, 0);
+	alienMothership.addBlock(metal, 4, 1);
+	alienMothership.addBlock(metal, 4, 8);
+	alienMothership.addBlock(metal, 4, 15);
+	alienMothership.addBlock(metal, 4, 24);
+	alienMothership.addBlock(cable, 4, 23);
+	alienMothership.addBlock(metal, 5, 0);
+	alienMothership.addBlock(metal, 5, 1);
+	alienMothership.addBlock(metal, 5, 8);
+	alienMothership.addBlock(metal, 5, 16);
+	alienMothership.addBlock(metal, 5, 15);
+	alienMothership.addBlock(cable, 5, 14);
+	alienMothership.addBlock(metal, 5, 24);
+	alienMothership.addBlock(metal, 5, 30);
+	alienMothership.addBlock(cableRight, 5, 23);
+	alienMothership.addBlock(metal, 6, 0);
+	alienMothership.addBlock(metal, 6, 1);
+	alienMothership.addBlock(metal, 6, 2);
+	alienMothership.addBlock(metal, 6, 8);
+	alienMothership.addBlock(metal, 6, 9);
+	alienMothership.addBlock(metal, 6, 16);
+	alienMothership.addBlock(cableLeft, 6, 15);
+	alienMothership.addBlock(metal, 6, 17);
+	alienMothership.addBlock(metal, 6, 24);
+	alienMothership.addBlock(metal, 6, 23);
+	alienMothership.addBlock(metal, 6, 25);
+	alienMothership.addBlock(metal, 6, 30);
+	alienMothership.addBlock(metal, 6, 36);
+	alienMothership.addBlock(metal, 6, 31);
+	alienMothership.addBlock(cableRight, 6, 29);
+	alienMothership.addBlock(cableRight, 6, 35);
+	alienMothership.addEnemy(tentacleAlien, 6, 37);
+	alienMothership.addBlock(metal, 7, 0);
+	alienMothership.addBlock(metal, 7, 1);
+	alienMothership.addBlock(metal, 7, 2);
+	alienMothership.addBlock(metal, 7, 8);
+	alienMothership.addBlock(metal, 7, 9);
+	alienMothership.addBlock(cable, 7, 7);
+	alienMothership.addBlock(metal, 7, 16);
+	alienMothership.addBlock(cableRight, 7, 15);
+	alienMothership.addBlock(metal, 7, 17);
+	alienMothership.addBlock(metal, 7, 18);
+	alienMothership.addBlock(metal, 7, 24);
+	alienMothership.addBlock(metal, 7, 23);
+	alienMothership.addBlock(metal, 7, 25);
+	alienMothership.addBlock(metal, 7, 30);
+	alienMothership.addBlock(metal, 7, 29);
+	alienMothership.addBlock(metal, 7, 36);
+	alienMothership.addBlock(metal, 7, 35);
+	alienMothership.addBlock(metal, 7, 31);
+	alienMothership.addBlock(cable, 7, 34);
+	alienMothership.addBlock(cableRight, 7, 22);
+	alienMothership.addFinishBlock(7, 37);
+	alienMothership.addBlock(metal, 8, 0);
+	alienMothership.addBlock(metal, 8, 1);
+	alienMothership.addBlock(metal, 8, 2);
+	alienMothership.addBlock(metal, 8, 8);
+	alienMothership.addBlock(metal, 8, 9);
+	alienMothership.addBlock(cableRight, 8, 7);
+	alienMothership.addBlock(metal, 8, 18);
+	alienMothership.addBlock(metal, 8, 17);
+	alienMothership.addBlock(metal, 8, 16);
+	alienMothership.addBlock(metal, 8, 15);
+	alienMothership.addBlock(metal, 8, 14);
+	alienMothership.addBlock(metal, 8, 13);
+	alienMothership.addBlock(metal, 8, 12);
+	alienMothership.addBlock(metal, 8, 11);
+	alienMothership.addBlock(metal, 8, 10);
+	alienMothership.addBlock(metal, 8, 24);
+	alienMothership.addBlock(metal, 8, 23);
+	alienMothership.addBlock(metal, 8, 22);
+	alienMothership.addBlock(metal, 8, 28);
+	alienMothership.addBlock(metal, 8, 27);
+	alienMothership.addBlock(metal, 8, 26);
+	alienMothership.addBlock(metal, 8, 25);
+	alienMothership.addBlock(cable, 8, 21);
+	alienMothership.addBlock(metal, 8, 31);
+	alienMothership.addBlock(metal, 8, 30);
+	alienMothership.addBlock(metal, 8, 29);
+	alienMothership.addBlock(metal, 8, 36);
+	alienMothership.addBlock(metal, 8, 35);
+	alienMothership.addBlock(metal, 8, 34);
+	alienMothership.addBlock(metal, 8, 33);
+	alienMothership.addBlock(metal, 8, 32);
+	alienMothership.addEnemy(tentacleAlien, 8, 37);
+	pages.push(alienMothership);
+
+	
 	// Level "grassland"
 	var grassland = new LevelPage();
 	grassland.setPageKey("grassland");
 	grassland.blockSize = 50;
 	grassland.gravity = 10,000000;
+	grassland.setBackgroundImage("images/grassland.png");
 	grassland.addBlock(earth, 8, 0);
 	grassland.addBlock(earth, 8, 4);
 	grassland.addBlock(grassDeco, 8, 5);
@@ -1386,10 +1575,10 @@ function setupPages() {
 	grassland.addBlock(earth, 17, 0);
 	grassland.addBlock(grassDeco, 17, 1);
 	grassland.addBlock(earth, 18, 0);
-	grassland.addExitGate("wasteland", 18, 2);
 	grassland.addBlock(grassDeco, 18, 1);
 	grassland.addBlock(earth, 0, 0);
-	grassland.addHero(rainbowUnicorn, 0, 1);
+	grassland.addHero(rainbowUnicorn, 0, 2);
+	grassland.addBlock(grassDeco, 0, 1);
 	grassland.addBlock(earth, 1, 0);
 	grassland.addBlock(grassDeco, 1, 1);
 	grassland.addBlock(earth, 2, 0);
@@ -1416,6 +1605,61 @@ function setupPages() {
 	grassland.addBlock(earth, 7, 1);
 	grassland.addBlock(earth, 7, 4);
 	grassland.addBlock(grassDeco, 7, 5);
+	grassland.addBlock(earth, 40, 0);
+	grassland.addBlock(grassDeco, 40, 1);
+	grassland.addBlock(earth, 24, 0);
+	grassland.addBlock(grassDeco, 24, 1);
+	grassland.addBlock(earth, 25, 0);
+	grassland.addBlock(grassDeco, 25, 1);
+	grassland.addBlock(earth, 26, 0);
+	grassland.addBlock(grassDeco, 26, 1);
+	grassland.addBlock(earth, 27, 0);
+	grassland.addBlock(earth, 27, 1);
+	grassland.addBlock(grassDeco, 27, 2);
+	grassland.addBlock(earth, 28, 0);
+	grassland.addBlock(earth, 28, 1);
+	grassland.addBlock(grassDeco, 28, 2);
+	grassland.addBlock(earth, 29, 0);
+	grassland.addBlock(earth, 29, 1);
+	grassland.addBlock(grassDeco, 29, 2);
+	grassland.addBlock(earth, 30, 0);
+	grassland.addBlock(earth, 30, 1);
+	grassland.addBlock(earth, 30, 2);
+	grassland.addBlock(grassDeco, 30, 3);
+	grassland.addBlock(earth, 31, 0);
+	grassland.addBlock(earth, 31, 1);
+	grassland.addBlock(earth, 31, 2);
+	grassland.addBlock(grassDeco, 31, 3);
+	grassland.addBlock(earth, 32, 0);
+	grassland.addBlock(earth, 32, 1);
+	grassland.addBlock(earth, 32, 2);
+	grassland.addBlock(grassDeco, 32, 3);
+	grassland.addBlock(earth, 33, 0);
+	grassland.addBlock(earth, 33, 1);
+	grassland.addBlock(earth, 33, 2);
+	grassland.addBlock(grassDeco, 33, 3);
+	grassland.addBlock(earth, 34, 0);
+	grassland.addBlock(earth, 34, 1);
+	grassland.addBlock(earth, 34, 2);
+	grassland.addBlock(grassDeco, 34, 3);
+	grassland.addBlock(earth, 35, 0);
+	grassland.addBlock(earth, 35, 1);
+	grassland.addBlock(earth, 35, 2);
+	grassland.addBlock(grassDeco, 35, 3);
+	grassland.addBlock(earth, 36, 0);
+	grassland.addBlock(earth, 36, 1);
+	grassland.addBlock(earth, 36, 2);
+	grassland.addBlock(grassDeco, 36, 3);
+	grassland.addBlock(earth, 37, 0);
+	grassland.addBlock(earth, 37, 1);
+	grassland.addBlock(earth, 37, 2);
+	grassland.addBlock(grassDeco, 37, 3);
+	grassland.addBlock(earth, 38, 0);
+	grassland.addBlock(earth, 38, 1);
+	grassland.addBlock(grassDeco, 38, 2);
+	grassland.addBlock(earth, 39, 0);
+	grassland.addExitGate("wasteland", 39, 3);
+	grassland.addBlock(grassDeco, 39, 1);
 	pages.push(grassland);
 
 	
@@ -1424,6 +1668,7 @@ function setupPages() {
 	wasteland.setPageKey("wasteland");
 	wasteland.blockSize = 50;
 	wasteland.gravity = 10,000000;
+	wasteland.setBackgroundImage("images/wasteland.png");
 	wasteland.addBlock(earth, 0, 1);
 	wasteland.addBlock(earth, 0, 2);
 	wasteland.addHero(rainbowUnicorn, 0, 3);
@@ -1434,11 +1679,13 @@ function setupPages() {
 	wasteland.addBlock(earth, 2, 1);
 	wasteland.addBlock(earthDeco2, 2, 2);
 	wasteland.addBlock(earth, 2, 0);
-	wasteland.addBlock(earth, 4, 4);
-	wasteland.addBlock(earthDeco3, 4, 5);
+	wasteland.addBlock(earth, 4, 3);
+	wasteland.addBlock(earthDeco2, 4, 4);
 	wasteland.addBlock(earth, 5, 4);
 	wasteland.addBlock(earth, 5, 0);
 	wasteland.addBlock(earthDeco2, 5, 1);
+	wasteland.addBlock(earth, 5, 3);
+	wasteland.addBlock(earthDeco2, 5, 5);
 	wasteland.addBlock(earth, 6, 4);
 	wasteland.addBlock(earthDeco3, 6, 5);
 	wasteland.addBlock(earth, 6, 0);
@@ -1446,6 +1693,7 @@ function setupPages() {
 	wasteland.addBlock(earth, 7, 4);
 	wasteland.addBlock(earthDeco2, 7, 5);
 	wasteland.addBlock(earth, 7, 0);
+	wasteland.addBlock(earthDeco3, 7, 1);
 	wasteland.addBlock(earth, 8, 4);
 	wasteland.addEnemy(slimyAlien, 8, 5);
 	wasteland.addBlock(earth, 8, 0);
@@ -1457,16 +1705,14 @@ function setupPages() {
 	wasteland.addEnemy(slimyAlien, 9, 1);
 	wasteland.addBlock(earth, 10, 4);
 	wasteland.addBlock(earth, 10, 5);
-	wasteland.addBlock(earthDeco3, 10, 7);
-	wasteland.addBlock(earth, 10, 6);
 	wasteland.addBlock(earth, 10, 0);
 	wasteland.addBlock(earthDeco3, 10, 1);
+	wasteland.addBlock(earthDeco3, 10, 6);
 	wasteland.addBlock(earth, 11, 4);
 	wasteland.addBlock(earth, 11, 5);
-	wasteland.addBlock(earth, 11, 6);
-	wasteland.addBlock(earthDeco2, 11, 7);
 	wasteland.addBlock(earth, 11, 0);
 	wasteland.addEnemy(slimyAlien, 11, 1);
+	wasteland.addBlock(earthDeco2, 11, 6);
 	wasteland.addBlock(earth, 15, 4);
 	wasteland.addEnemy(slimyAlien, 15, 5);
 	wasteland.addBlock(earth, 15, 0);
@@ -1476,16 +1722,69 @@ function setupPages() {
 	wasteland.addBlock(earthDeco3, 16, 6);
 	wasteland.addBlock(earth, 16, 0);
 	wasteland.addBlock(earthDeco1, 16, 1);
-	wasteland.addBlock(earth, 17, 4);
 	wasteland.addBlock(earth, 17, 5);
-	wasteland.addExitGate("main", 17, 6);
 	wasteland.addBlock(earth, 17, 0);
 	wasteland.addEnemy(slimyAlien, 17, 1);
+	wasteland.addBlock(stone, 17, 4);
+	wasteland.addBlock(earthDeco1, 17, 6);
 	wasteland.addBlock(earth, 12, 0);
+	wasteland.addBlock(earthDeco2, 12, 1);
 	wasteland.addBlock(earth, 13, 0);
 	wasteland.addBlock(earthDeco1, 13, 1);
 	wasteland.addBlock(earth, 14, 0);
 	wasteland.addBlock(earthDeco2, 14, 1);
+	wasteland.addBlock(earth, 18, 0);
+	wasteland.addBlock(earth, 18, 5);
+	wasteland.addBlock(stone, 18, 4);
+	wasteland.addBlock(earthDeco3, 18, 6);
+	wasteland.addBlock(earth, 19, 0);
+	wasteland.addBlock(earth, 19, 5);
+	wasteland.addBlock(stone, 19, 4);
+	wasteland.addBlock(earthDeco3, 19, 1);
+	wasteland.addBlock(earthDeco2, 19, 6);
+	wasteland.addBlock(earth, 20, 0);
+	wasteland.addBlock(earth, 20, 4);
+	wasteland.addBlock(earthDeco1, 20, 1);
+	wasteland.addBlock(earthDeco3, 20, 5);
+	wasteland.addBlock(earth, 21, 0);
+	wasteland.addBlock(earth, 21, 4);
+	wasteland.addBlock(earthDeco3, 21, 1);
+	wasteland.addBlock(earthDeco2, 21, 5);
+	wasteland.addBlock(earth, 24, 1);
+	wasteland.addEnemy(slimyAlien, 24, 2);
+	wasteland.addBlock(earth, 25, 1);
+	wasteland.addBlock(earth, 25, 2);
+	wasteland.addBlock(earthDeco1, 25, 3);
+	wasteland.addBlock(earth, 26, 1);
+	wasteland.addBlock(earth, 26, 2);
+	wasteland.addBlock(earthDeco3, 26, 3);
+	wasteland.addBlock(earth, 27, 1);
+	wasteland.addBlock(earth, 27, 2);
+	wasteland.addBlock(earth, 27, 3);
+	wasteland.addBlock(earthDeco1, 27, 4);
+	wasteland.addBlock(earth, 28, 1);
+	wasteland.addBlock(earth, 28, 2);
+	wasteland.addBlock(earth, 28, 3);
+	wasteland.addBlock(earthDeco3, 28, 4);
+	wasteland.addBlock(earth, 29, 1);
+	wasteland.addBlock(earth, 29, 2);
+	wasteland.addBlock(earth, 29, 3);
+	wasteland.addBlock(earthDeco2, 29, 4);
+	wasteland.addBlock(earth, 30, 1);
+	wasteland.addBlock(earth, 30, 2);
+	wasteland.addEnemy(slimyAlien, 30, 3);
+	wasteland.addBlock(earth, 31, 1);
+	wasteland.addBlock(earthDeco1, 31, 2);
+	wasteland.addBlock(earth, 32, 1);
+	wasteland.addBlock(earthDeco3, 32, 2);
+	wasteland.addBlock(stone, 37, 3);
+	wasteland.addBlock(stone, 37, 4);
+	wasteland.addExitGate("alienMothership", 37, 5);
+	wasteland.addBlock(stone, 36, 3);
+	wasteland.addBlock(stone, 36, 4);
+	wasteland.addBlock(earthDeco3, 36, 5);
+	wasteland.addBlock(stone, 35, 3);
+	wasteland.addBlock(earthDeco3, 35, 4);
 	pages.push(wasteland);
 
 	
