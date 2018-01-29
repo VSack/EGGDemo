@@ -1,6 +1,6 @@
 TextPage gametitle {
-	startPage;
-	backgroundImage "title.png";
+	//startPage;
+	backgroundImage "title_logo.png";
 	next "main";
 	paragraph " ";
 	paragraph " ";
@@ -45,13 +45,15 @@ MenuPage main {
 	};
  	fontSize 20;
   	fontColor #b8798d;
-	button "Spiel Starten" to prologue1; 
+	button "Spiel Starten" to grassland; 
 	button "Hilfe" to help;
 	backgroundImage "background_menu.png";
 }
 
 TextPage prologue1 {
-	backgroundImage "prologue.png";
+	startPage;
+	backgroundImage "background_menu.png";
+	
 	paragraph " ";
 	paragraph " ";
 	paragraph " ";
@@ -60,7 +62,7 @@ TextPage prologue1 {
 	paragraph " ";
 	paragraph " ";
 	paragraph " ";
-	paragraph " ";
+	paragraph "In einer Welt, die von Aliens an den Rand des Abgrunds gebracht wurde ...";
 	paragraph " ";
 	paragraph " ";
 	paragraph " ";
@@ -81,7 +83,79 @@ TextPage prologue1 {
 	paragraph " ";
 	paragraph " ";
 	paragraph "[Press ENTER to continue]";
-	next "grassland";
+	next "prologue2";
+	//next "alienMothership";
+}
+
+TextPage prologue2 {
+	backgroundImage "background_menu.png";
+	
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph "... ruht aller Wesen Hoffnung auf den Schultern eines Helden.";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph "[Press ENTER to continue]";
+	next "prologue3";
+	//next "alienMothership";
+}
+
+TextPage prologue3 {
+	backgroundImage "background_menu.png";
+	
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";	
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph "(Oder eher in seinen Hufen)";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";	
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph "[Press ENTER to continue]";
+	next "main";
 	//next "alienMothership";
 }
 

@@ -1356,8 +1356,7 @@ function setupPages() {
 	// Text Page to the description with name "gametitle"
 	var gametitle = new TextPage();
 	gametitle.setPageKey("gametitle");
-	startPageKey = "gametitle";
-	gametitle.setBackgroundImage("images/title.png");
+	gametitle.setBackgroundImage("images/title_logo.png");
 	gametitle.newPageKey = "main";
 	gametitle.addParagraph(" ");
 	gametitle.addParagraph(" ");
@@ -1402,7 +1401,7 @@ function setupPages() {
 	main.logoAnimationSpeed = 10000;
 	main.textSize = 20;
 	main.textStyle = "#b8798d";
-	main.addButton("Spiel Starten", "prologue1");
+	main.addButton("Spiel Starten", "grassland");
 	main.addButton("Hilfe", "help");
 	main.setBackgroundImage("images/background_menu.png");
 	pages.push(main);
@@ -1410,7 +1409,8 @@ function setupPages() {
 	// Text Page to the description with name "prologue1"
 	var prologue1 = new TextPage();
 	prologue1.setPageKey("prologue1");
-	prologue1.setBackgroundImage("images/prologue.png");
+	startPageKey = "prologue1";
+	prologue1.setBackgroundImage("images/background_menu.png");
 	prologue1.addParagraph(" ");
 	prologue1.addParagraph(" ");
 	prologue1.addParagraph(" ");
@@ -1419,7 +1419,7 @@ function setupPages() {
 	prologue1.addParagraph(" ");
 	prologue1.addParagraph(" ");
 	prologue1.addParagraph(" ");
-	prologue1.addParagraph(" ");
+	prologue1.addParagraph("In einer Welt, die von Aliens an den Rand des Abgrunds gebracht wurde ...");
 	prologue1.addParagraph(" ");
 	prologue1.addParagraph(" ");
 	prologue1.addParagraph(" ");
@@ -1440,8 +1440,80 @@ function setupPages() {
 	prologue1.addParagraph(" ");
 	prologue1.addParagraph(" ");
 	prologue1.addParagraph("[Press ENTER to continue]");
-	prologue1.newPageKey = "grassland";
+	prologue1.newPageKey = "prologue2";
 	pages.push(prologue1);
+
+	// Text Page to the description with name "prologue2"
+	var prologue2 = new TextPage();
+	prologue2.setPageKey("prologue2");
+	prologue2.setBackgroundImage("images/background_menu.png");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph("... ruht aller Wesen Hoffnung auf den Schultern eines Helden.");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph(" ");
+	prologue2.addParagraph("[Press ENTER to continue]");
+	prologue2.newPageKey = "prologue3";
+	pages.push(prologue2);
+
+	// Text Page to the description with name "prologue3"
+	var prologue3 = new TextPage();
+	prologue3.setPageKey("prologue3");
+	prologue3.setBackgroundImage("images/background_menu.png");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph("(Oder eher in seinen Hufen)");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph(" ");
+	prologue3.addParagraph("[Press ENTER to continue]");
+	prologue3.newPageKey = "main";
+	pages.push(prologue3);
 
 	// Text Page to the description with name "help"
 	var help = new TextPage();
