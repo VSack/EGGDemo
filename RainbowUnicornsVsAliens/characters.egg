@@ -9,7 +9,7 @@ Hero rainbowUnicorn {
 	jumpPower 65;
 	maxLife 10;
 	speed 7;
-	strength 3;
+	strength 10;
 	
 	run Animation {
 		duration 150;

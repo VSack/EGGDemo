@@ -5,6 +5,12 @@ TextPage gametitle {
 }
 
 MenuPage main {
+	logo Animation {
+		pictures "logo_edge.png";
+		duration 10000;
+	};
+ 	fontSize 20;
+  	fontColor #b8798d;
 	button "Spiel Starten" to prologue1; 
 	button "Hilfe" to help;
 	backgroundImage "background_menu.png";
@@ -17,8 +23,11 @@ TextPage prologue1 {
 }
 
 TextPage help {
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
 	paragraph "How to Save the World. For Dummys.";
-	paragraph "-----------------------------------------------";
+	paragraph "--------------------------------------------------------------------";
 	paragraph " ";
 	paragraph "Benutze die Pfeiltasten auf deiner Tastatur, um den Helden zu steuern.";
 	paragraph " ";
