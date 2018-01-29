@@ -2,6 +2,40 @@ TextPage gametitle {
 	startPage;
 	backgroundImage "title.png";
 	next "main";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph "[Press ENTER to continue]";
 }
 
 MenuPage main {
@@ -18,6 +52,35 @@ MenuPage main {
 
 TextPage prologue1 {
 	backgroundImage "prologue.png";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph "[Press ENTER to continue]";
 	next "grassland";
 	//next "alienMothership";
 }
@@ -31,7 +94,22 @@ TextPage help {
 	paragraph " ";
 	paragraph "Benutze die Pfeiltasten auf deiner Tastatur, um den Helden zu steuern.";
 	paragraph " ";
-	paragraph "Finde deinen Weg durch die Apokalypse - aber pass auf! Es sind gefährliche Aliens unterwegs!";
+	paragraph "Finde deinen Weg durch die Apokalypse - aber pass auf! Es sind gefaehrliche Aliens unterwegs!";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph " ";
+	paragraph "[Press ENTER to continue]";
 	
 	backgroundImage "background_menu.png";
 	next "main";
